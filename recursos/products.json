@@ -1,0 +1,36 @@
+[
+    {
+        "image": "../../images/almohadonMatero.jpeg",
+        "title": "Almohadon Matero",
+        "description": "Almohadon matero de cuatro orificios, hecho con tela impermeable y relleno con vellón siliconado",
+        "price": 20000
+    },
+
+    {
+        "image": "../../images/amigurumiGrogu.jpeg",
+        "title": "Amigurumi Grogu",
+        "description": "Para que la fuerza te acompañe con este amigurumi de Grogu, baby Yoda o como más te guste llamarlo",
+        "price":22000
+    },
+
+    {
+        "image": "../../images/amigurumiLechuza.jpeg",
+        "title": "Amigurumi de Hedwig",
+        "description": "Estas esperando la carta de Hogwarts y todavía no te llegó... es porque no tenes en casa a Hedwig todavía",
+        "price":15000
+    },
+
+    {
+        "image": "../../images/amigurumiMinion.jpeg",
+        "title": "Amigurumi Minion",
+        "description": "Para que te acompañe en todas las travesuras y salvar el mundo de casualidad más de una vez",
+        "price":15000
+    },
+
+    {
+        "image": "../../images/sahumerios.jpeg",
+        "title": "Sahumerios",
+        "description": "Pack de 20 sahumerios de las mejores fragancias para limpiar energeticamente tus ambientes y dejar un rico aroma",
+        "price":5000
+    }
+]

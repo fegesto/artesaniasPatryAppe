@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5C2674;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+.logoMarca {
+  display: flex;
+  justify-content: left;
+  width: 20%;
+}
+
+.logoRedes {
+  width: 20px;
+  margin: 5px 20px 5px 20px;
+  filter: grayscale();
+}
+
+footer {
+  clear: both;
+  background-color: white;
+  margin: 0;
+  min-height: 50vh;
+}
+footer ul {
+  overflow: hidden;
+  list-style: none;
+}
+footer ul li a {
+  background-color: white;
+  color: #c0c0c0;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: small;
+  transition: 0.3s;
+}
+footer ul li:hover {
+  font-weight: bolder;
+}
+footer .footer_flex {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  margin: 0;
+}
+footer .footer_logos {
+  width: 100%;
+  margin-top: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+footer .copyright p {
+  background-color: white;
+  color: #c0c0c0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+  font-size: 10px;
+  margin: 0;
+}
+footer .map-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+footer .map-location iframe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #dd92ff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.product-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-content {
+  display: flex;
+  gap: 10px;
+}
+
+.product-image {
+  width: 30%;
+  height: auto;
+}
+
+.product-info {
+  width: 70%;
+}
+
+.product-description {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.product-price {
+  text-align: right;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */
